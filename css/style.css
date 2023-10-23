@@ -1,0 +1,413 @@
+body {
+   box-sizing: border-box;
+   background: #fff;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-family: 'Roboto', sans-serif;
+}
+
+/*     -----     General Style Settings     ------     */
+
+/* maximum width */
+.main_container {
+   width: 1140px;
+   margin: 0 auto;
+   position: relative;
+}
+
+/* main btn settings */
+.btn_blue {
+   display: block;
+   margin: 72px auto;
+   width: 313px;
+   height: 72px;
+   background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+   color: #fff;
+   text-transform: uppercase;
+   text-shadow: -1px -1px 0px 0px rgba(0, 0, 0, 0.22);
+   font-family: Roboto;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   border: none;
+   border-radius: 4px
+}
+
+/*     -----     First screen     ------     */
+
+/*background first screen*/
+.word_press {
+   height: 800px;
+   background:  url(../img/bg/main_bg.png) center center/cover no-repeat;
+   padding: 39px 0 62px 0;
+   text-align: center;
+}
+
+/* logotype settings */
+.logo {
+   display: block;
+   margin: 0 auto;
+}
+
+/* logotype settings */
+.logo_text {
+   margin-top: 14px;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 500;
+}
+
+/* titles settings for first screen */
+h1 {
+   margin-top: 53px;
+}
+
+/* titles settings for first screen */
+.title {
+   color: #F9BF3B;
+   font-size: 41px;
+   font-weight: 900;
+   line-height: 24px;
+   text-transform: uppercase;
+}
+
+/* titles settings for first screen */
+h2.title {
+   margin-top: 30px;
+}
+
+/* titles settings for first screen */
+.title_big {
+   margin-top: 21px;
+   margin-bottom: 0;
+   font-size: 80px;
+   font-weight: 900;
+   color: #fff;
+   text-transform: uppercase;
+   font-family: "Roboto";
+}
+
+/* text settings for first screen */
+.promo_text {
+   color: #FFF;
+   text-align: justify;
+   font-family: Roboto;
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 28px;
+}
+
+/* text settings for first screen */
+.free {
+   color: #F9BF3B;
+   font-family: Roboto;
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px;
+}
+
+/* arrow area settings for first screen */
+.going_down {
+   color: #FFF;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 100;
+   line-height: 24px;
+   text-transform: uppercase;
+}
+
+/* arrow area settings for first screen */
+.going_down_img {
+   margin: 0 auto;
+   margin-top: 4px;
+   width: 29.992px;
+   height: 18.992px;
+}
+
+
+/*     -----     Waiting section     ------     */
+
+/* Settings for block */
+.waiting {
+   min-height: 604px;
+   padding: 84px 0 75px 0;
+   background-color: #EFEFEF;
+}
+
+/* h2 style */
+.waiting_title {
+   color: #252525;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   text-transform: uppercase;
+   margin-top: 0;
+}
+
+/* Yellow line between title and text */
+.waiting_line {
+   margin-top: 18px;
+   margin: 0 auto;
+   width: 220px;
+   height: 3px;
+   background-color: #F9BF3B;
+}
+
+/* Text area */
+.waiting_text {
+   margin-top: 18px;
+   color: #4A4A4A;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 23px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 20px;
+}
+
+/* Description of benefits */
+.waiting_wrapper {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 46px;
+}
+
+.waiting_items {
+   max-width: 339px;
+   text-align: center;
+
+}
+
+/* container for img */
+.items_img {
+   width: 100%;
+}
+
+/* item's text rules */
+.items_text {
+   margin-top: 33px;
+   color: #4A4A4A;
+   font-family: Roboto;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 21px;
+}
+
+/*     -----     Optimization section     ------     */
+.optimization {
+   min-height: 448px;
+
+}
+
+/* title style */
+.title_optimization {
+   margin-top: 108px;
+   margin-left: 391px;
+   color: #299CBD;
+   font-family: Roboto;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 30px;
+   text-transform: uppercase;
+}
+
+/* text style */
+.text_optimization {
+   margin: 25px 0 0 391px;
+   color: #4A4A4A;
+   font-family: Roboto;
+   font-size: 17px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 27px;
+}
+
+/* bold for text */
+.text_optimization span {
+   color: #4A4A4A;
+   font-family: Roboto;
+   font-size: 17px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 27px;
+}
+
+/* background style */
+.img_optimization {
+   position: absolute;
+   left: -250px;
+   top: -54px;
+   z-index: -1;
+
+}
+
+/*     -----     After section     ------     */
+
+
+/* h2 style */
+.header_after {
+   color: #FFF;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   text-transform: uppercase;
+   padding-top: 86px;
+   margin: 0 0 18px 0;
+}
+
+/* Yellow line between title and text */
+.devider_after {
+   margin: 0 auto;
+   width: 220px;
+   height: 3px;
+   background-color: #F9BF3B;
+}
+
+/* background */
+.after {
+   min-height: 447px;
+   background: url(../img/bg/second_bg.png) center center/cover no-repeat;
+}
+
+.wrapper_after {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 39px;
+}
+
+.item_after {
+   max-width: 190px;
+}
+
+.circle_after {
+   width: 118px;
+   height: 118px;
+   background-color: #B4E2FF;
+   border-radius: 100%;
+   margin: 0 auto;
+   position: relative;
+}
+
+.icon_after {
+   display: block;
+   margin: auto;
+   position: absolute;
+   right: 0;
+   left: 0;
+   top: 0;
+   bottom: 0;
+}
+
+.desc_after {
+   color: #EFEFEF;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 17px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 20px
+}
+
+/*     -----     Bonus section     ------     */
+
+.bonus {
+   height: 631px;
+   background-color: #EFEFEF;
+}
+
+.gift_img {
+   display: block;
+   margin: 0 auto;
+   padding-top: 88px;
+}
+
+.bonus_text {
+   color: #252525;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 43px;
+   margin-top: 45px;
+}
+
+/*     -----     Veb section     ------     */
+
+.veb {
+   height: 512px;
+}
+
+.veb_laptop_img {
+   margin: 0 auto;
+   padding-top: 89px;
+   display: block;
+}
+
+.veb_title {
+   margin-top: 36px;
+   color: #252525;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   text-transform: uppercase;
+}
+
+.veb_dedline {
+   margin-top: 30px;
+   color: #299CBD;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 36px;
+   text-transform: uppercase;
+}
+
+.veb_text {
+   color: #4A4A4A;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 23px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 20px;
+}
+
+/*     -----     Footer     ------     */
+
+footer {
+   height: 169px;
+   background-color: #1A1A1A
+}
+
+.about_us {
+   text-align: center;
+   padding-top: 57px;
+   color: #888;
+}
+
+a:link, a:hover, a:visited, .support .security {
+   color: #888;
+}
