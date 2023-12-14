@@ -273,7 +273,7 @@ h2.title {
 }
 
 /* Yellow line between title and text */
-.devider_after {
+.divider_after {
    margin: 0 auto;
    width: 220px;
    height: 3px;
@@ -373,7 +373,7 @@ h2.title {
    text-transform: uppercase;
 }
 
-.veb_dedline {
+.veb_deadline {
    margin-top: 30px;
    color: #299CBD;
    text-align: center;
